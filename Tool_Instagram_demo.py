@@ -5,7 +5,6 @@ from colorama import Fore, Style, init
 # Khởi tạo colorama để hỗ trợ màu
 init(autoreset=True)
 
-# Logo ASCII
 logo = """
 🟦🟦🟦🟦🟦🟦🟪🟪🟪🟪🟪🟪🟪🟪🟪
 🟦🟦🟦🟦🟦🟦🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪
@@ -165,7 +164,6 @@ else:
                         break
 
             elif choice == '2':
-                # Placeholder cho tính năng khác
                 print(Fore.CYAN + "\nTính năng này đang được phát triển. Vui lòng thử lại sau.")
 
             elif choice == '0':
