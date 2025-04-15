@@ -2,7 +2,6 @@ import instaloader
 import time
 from colorama import Fore, Style, init
 
-# Khởi tạo colorama để hỗ trợ màu
 init(autoreset=True)
 
 logo = """
